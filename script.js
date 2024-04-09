@@ -28,10 +28,7 @@ $(document).ready(function() {
     $('form').on('submit', function(e) {
         e.preventDefault();
 
-        // Simulate submission success (replace this with your actual submission logic)
-        // For demonstration purposes, we'll just show a message after 2 seconds
-        setTimeout(function() {
-            $('#submission-message').text('Submission successful!');
-        }, 2000);
+        // Simulate submission success by displaying a message
+        $('#submission-message').text('Submitted successfully!');
     });
 });
