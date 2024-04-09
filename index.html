@@ -1,158 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-     <!-- Font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- css file      -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header section -->
-    <header> 
-        <div class = "user">
-           <img src = "user.png"  alt="photo">
-           <h3 class = "name">Titus Kithome</h3>
-           <p class="post">Web Designer</p>
-        </div>  
-
-        <nav class = "navbar">
-            <ul>
-                 <li ><a href = "#home">Home</a></li>
-                 <li ><a href = "#about" >About Me </a></li>
-                 <li ><a href = "#education" >Education</a></li>
-                 <li ><a href = "#skills" >Skills</a></li>
-                 <li><a href = "#contact" >Contact</a></li>
-             </ul>
-        </nav>
-    </header> 
-
-    <div id="menu" class="fas fa-bars"></div>  
-
-    <!-- header section ends -->
-
-    <!-- home section starts -->
-    <section id="home" class="home">
-
-        <h3>Hello!</h3>
-        <h1>I'M<span>Titus Kithome</span></h1>
-        <p>I am currently persuing my degree in Telecommunication and Information Technology.<br>My goal is to become a successful 
-           Front End Developer .<br> My hobbies are playing PS-games,football and Kungfu .
-        </p>
-        <a href="#about"><button class="btn">About Me<i class="fa fa-user"></i></button></a>
-    </section>
-   <!-- home section ends -->
-
-  <!-- About section starts -->
-  <section class="about" id="about">
-
-  <h1 class="heading"><span>About </span> Me</h1>
-
- <div class="row">
-
-   <div class="info">
-       <h3><span>Name : </span> Titus Kithome</h3>
-       <h3><span>Age : </span> 21</h3>
-       <h3><span>Qualification : </span>Bsc. Telecommunication and IT(2022)</h3>
-       <h3><span> Goal: </span>Front-end Developer</h3>
-       <h3><span>Language: </span> English, Kiswahili and Kikamba</h3>
-
-    <div class="counter">
-       <div class="box">
-           <!-- Attach afterwards -->
-           <span>6+</span>
-           <h3>months of experirence</h3>
-       </div>
-       
-       <div class="box">
-        <span>4+</span>
-        <h3>project completed</h3>
-       </div>
-       
-       <div class="box">
-        <span>6+</span>
-        <h3>certificates achieved</h3>
-    </div>
-    </div>
- </div>
- </section>
- <!-- About section ends -->
-
- <!--Education section starts -->
- <section class="education" id="education">
- <h1 class="heading">My <span>Education </span></h1>
- 
- <div class="box-container">
- 
-    <div class="box">
-       <i class="fa fa-graduation-cap"></i>
-       <span>2019</span>
-       <h3>10<sup>th</sup>(H.S.C.)</h3>
-       <p>I passed the <b>10<sup>th </sup>standard</b> with a execellent result of <b>84%</b> from Rosary High School ,Vadodara.</p>
-    </div>
-    
-    <div class="box">
-        <i class="fa fa-graduation-cap"></i>
-        <span>2022</span>
-        <h3>Bsc. Telecommunication and IT</h3>
-        <p>Ongoing till Dec, 2025</b> from Pwani University</p>
-     </div>
- </div>
- </section>
- <!-- Education section ends-->
- 
- <!--Skills section starts -->
- <section class="skills" id="skills">
- <h1 class="heading">My <span>Skills</span></h1>
- 
- <div class="box-container">
-     <h3>According to my learning experience and Projects :</h3>
-    <div class="bar basic" data-skill="Javascript"></div>
-    <div class="bar back intermediate" data-skill="Java"></div>
-    <div class="bar back intermediate" data-skill="Python"></div>
-    <div class="bar front advanced" data-skill="CSS3"></div>
-    <div class="bar front expert" data-skill="HTML5"></div>
-
-    </div>
-   </div>
-  </div>
-</section>
- <!--Skills section ends -->
-
- <!-- Contact Section starts -->
- <section class="contact" id="contact">
-
- 
- 
- <h1 class="heading"><span>Contact</span> Me</h1>
- <div class="row">
-
-    <div class="content">   
-    
-        <h3 class="title">Contact Info :</h3>
-
-        <div class="info">
-            <h3><i class="fa fa-envelope"></i>tituskithome122@gmail.com</h3>
-            <h3><i class="fa fa-phone"></i> +254 702 120 644</h3>
-            <h3><i class="fa fa-map-marker"></i> -Kaya, Kilifi, Kenya</h3>      
+    <header>
+        <div class="user">
+            <h3 class="name">Titus Kithome</h3>
+            <p class="post">Web Designer</p>
         </div>
-    </div>
-    
-    <form action = "">
-        <input type="text" placeholder= "Name" class="box">
-        <input type="Email" placeholder= "Email" class="box">
-        <input type="project/work" placeholder= "Project/Work" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message " ></textarea>
-        <button type="submit" class="btn"><a href = "mailto:tituskithome122@gmail.com" target="_blank"></a> Send <i class="fas fa-paper-plane"></i></button>
-        
-    </form>   
-  </div>
- </section>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
- <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <script src = "script.js"></script>
+    <section id="home" class="home">
+        <h1>Hello!</h1>
+        <h2>I'm Titus Kithome</h2>
+        <p>I am pursuing a degree in Telecommunication and Information Technology. My goal is to become a successful Front End Developer. My hobbies include playing PS-games, football, and Kungfu.</p>
+        <a href="#about" class="btn">About Me</a>
+    </section>
 
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="info">
+            <p>Name: Titus Kithome</p>
+            <p>Age: 21</p>
+            <p>Qualification: Bsc. Telecommunication and IT (2022)</p>
+            <p>Goal: Front-end Developer</p>
+            <p>Language: English, Kiswahili, and Kikamba</p>
+        </div>
+        <div class="counter">
+            <div class="box">
+                <span>6+</span>
+                <p>months of experience</p>
+            </div>
+            <div class="box">
+                <span>4+</span>
+                <p>projects completed</p>
+            </div>
+            <div class="box">
+                <span>2</span>
+                <p>certificates achieved</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="education" class="education">
+        <h2>My Education</h2>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>10th (H.S.C.)</h3>
+                <p>I passed the 10th standard with an excellent result of 84% from Rosary High School, Vadodara.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Bsc. Telecommunication and IT</h3>
+                <p>Ongoing till Dec, 2025 from Pwani University</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="box-container">
+            <div class="bar basic" data-skill="Javascript">Javascript</div>
+            <div class="bar back intermediate" data-skill="Java">Java</div>
+            <div class="bar back intermediate" data-skill="Python">Python</div>
+            <div class="bar front advanced" data-skill="CSS3">CSS3</div>
+            <div class="bar front expert" data-skill="HTML5">HTML5</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="row">
+            <div class="content">
+                <h3>Contact Info:</h3>
+                <div class="info">
+                    <p><i class="fa fa-envelope"></i>tituskithome122@gmail.com</p>
+                    <p><i class="fa fa-phone"></i>+254 702 120 644</p>
+                    <p><i class="fa fa-map-marker"></i>-Kaya, Kilifi, Kenya</p>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="Email" class="box">
+                <input type="text" placeholder="Project/Work" class="box">
+                <textarea name="message" class="box message" placeholder="Message"></textarea>
+                <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
