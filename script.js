@@ -28,7 +28,7 @@ $(document).ready(function() {
     $('form').on('submit', function(e) {
         e.preventDefault();
 
-        // Simulate submission success by displaying a message
-        $('#submission-message').text('Submitted successfully!');
+        // Display a prompt after form submission
+        alert('Submitted successfully!');
     });
 });
